@@ -1,8 +1,17 @@
-var express	= require('express');
+var express = require('express');
 
 var app = express();
 
 var port = 3000;
-app.listen(port, function(err){
+
+app.get('/', function (req, res) {
+	res.send('Hello word');
+});
+
+app.get('/books', function (req, res) {
+	res.send('Hello books');
+});
+
+app.listen(port, function (err) {
 	console.log('running server on port: ' + port);
-})
+});
