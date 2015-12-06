@@ -1,0 +1,21 @@
+{
+  "name": "EstudoNodeJS",
+  "description": "Projeto de estudo NodeJS",
+  "main": "app.js",
+  "authors": [
+    "Jonatas Saraiva"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
